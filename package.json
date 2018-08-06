@@ -1,0 +1,20 @@
+{
+  "name": "remo-batch",
+  "version": "1.0.0",
+  "description": "batch script control Nature Remo",
+  "main": "index.js",
+  "author": "satoshicano <satoshicano@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "nature-remo-api-client": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.5",
+    "ts-node": "^7.0.0",
+    "typescript": "^3.0.1"
+  }
+}
